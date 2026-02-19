@@ -7,6 +7,10 @@
  * and a message is printed on the Serial Monitor.
  * Otherwise, the LED turns OFF and a different message is printed.
  *
- * @author Bhartendu Ji
+ * @author Ram sharma
  * @date 18 Feb 2026
  */
+// Pin Definitions
+int touchPin = 7;   ///< Touch sensor connected to digital pin 7
+int ledPin = 13;    ///< LED connected to digital pin 13
+
